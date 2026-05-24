@@ -1,5 +1,5 @@
 import os, re, random, shutil
-os.chdir(os.path.dirname(__file__).replace(r'\duplicator',''))
+os.chdir(os.path.dirname(__file__).replace(r'\StardewValleySaveDuplicater',''))
 def main(folder = None, farm_name = None):
     os.chdir(f'C:/Users/{os.environ.get('USERNAME')}/AppData/Roaming/StardewValley/Saves')
     try:
