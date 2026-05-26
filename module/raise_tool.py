@@ -19,7 +19,6 @@ def silent_raise():
 
 def clean_raise(exception = None):
     except_class = exception.__class__
-    print(except_class)
     
     if exception is None: exception = RuntimeError('No active exception to reraise')
     exception.__traceback__ = None
